@@ -1,5 +1,3 @@
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 public class IntegerNumber {
     private final int value;
 
@@ -16,6 +14,6 @@ public class IntegerNumber {
     }
 
     public IntegerNumber add(IntegerNumber other) {
-        throw new NotImplementedException(); // 亲，等你来实现
+        return new IntegerNumber(value+other.getValue());
     }
 }
