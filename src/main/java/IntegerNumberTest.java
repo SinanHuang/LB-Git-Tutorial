@@ -22,4 +22,15 @@ public class IntegerNumberTest {
         int expectedResult = 6;
         assertEquals(sum.getValue(), expectedResult);
     }
+    
+    @Test
+    public void multiplying_two_integer_numbers(){
+        IntegerNumber aNumber = new IntegerNumber(3);
+        IntegerNumber another = new IntegerNumber(2);
+
+        IntegerNumber whatever = aNumber.multiply(another);
+
+        int expectedResult = 6;
+        assertEquals(whatever.getValue(), expectedResult);
+    }
 }
