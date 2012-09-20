@@ -16,4 +16,8 @@ public class IntegerNumber {
     public IntegerNumber add(IntegerNumber other) {
         return new IntegerNumber(value+other.getValue());
     }
+    
+    public IntegerNumber multiply(IntegerNumber other) {
+        return new IntegerNumber(value*other.getValue());
+    }
 }
