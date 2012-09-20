@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class IntegerNumberTest {
-    @Test
+    //@Test
     public void should_calculate_a_number_is_greater_than_another(){
         IntegerNumber bigNumber = new IntegerNumber(5);
         IntegerNumber smallNumber = new IntegerNumber(1);
@@ -12,7 +12,7 @@ public class IntegerNumberTest {
         assertTrue(bigNumber.isGreaterThan(smallNumber));
     }
 
-    @Test
+    //@Test
     public void should_calculate_the_sum_of_two_integer_numbers(){
         IntegerNumber aNumber = new IntegerNumber(5);
         IntegerNumber another = new IntegerNumber(1);
@@ -23,7 +23,7 @@ public class IntegerNumberTest {
         assertEquals(sum.getValue(), expectedResult);
     }
     
-    @Test
+    //@Test
     public void multiplying_two_integer_numbers(){
         IntegerNumber aNumber = new IntegerNumber(3);
         IntegerNumber another = new IntegerNumber(2);
